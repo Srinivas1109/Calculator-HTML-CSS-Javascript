@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./caculator-icon.svg" type="image/svg">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="result-screen">
+                <div class="result-screen-upper" id="upper-screen"></div>
+                <div class="result-screen-lower" id="lower-screen"></div>
+            </div>
+            <div class="buttons">
+                <div class="operator-buttons">
+                    <button class="operator-btn non-action" id="open-bracket">(</button>
+                    <button class="operator-btn non-action" id="close-bracket">)</button>
+                    <button class="operator-btn" id="answer">ans</button>
+                    <button class="operator-btn" id="delete">del</button>
+                    <button class="operator-btn" id="clear">clear</button>
+                </div>
+                <div class="operator-buttons">
+                    <button class="operator-btn number non-action" id="seven">7</button>
+                    <button class="operator-btn number non-action" id="eight">8</button>
+                    <button class="operator-btn number non-action" id="nine">9</button>
+                    <button class="operator-btn non-action" id="percentage">%</button>
+                    <button class="operator-btn non-action" id="square-root">√</button>
+                </div>
+                <div class="operator-buttons">
+                    <button class="operator-btn number non-action" id="four">4</button>
+                    <button class="operator-btn number non-action" id="five">5</button>
+                    <button class="operator-btn number non-action" id="six">6</button>
+                    <button class="operator-btn non-action" id="multiply">x</button>
+                    <button class="operator-btn non-action" id="divide">÷</button>
+                </div>
+                <div class="operator-buttons">
+                    <button class="operator-btn number non-action" id="one">1</button>
+                    <button class="operator-btn number non-action" id="two">2</button>
+                    <button class="operator-btn number non-action" id="three">3</button>
+                    <button class="operator-btn non-action" id="add">+</button>
+                    <button class="operator-btn non-action" id="subtract">-</button>
+                </div>
+                <div class="operator-buttons bottom">
+                    <button class="operator-btn non-action" id="point">.</button>
+                    <button class="operator-btn number non-action" id="zero">0</button>
+                    <button class="operator-btn non-action" id="plus-or-minus">±</button>
+                    <button class="operator-btn enter-btn" id="enter">Enter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
